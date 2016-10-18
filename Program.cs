@@ -188,6 +188,12 @@ namespace ConsoleApplication
                //Console.WriteLine(i);
                Console.WriteLine(someArray[i]);
            }
+
+           //converting string to an arrays
+           string someStrings = "they,are,here,as,expected,we,know,them";
+           string [] sentence = someStrings.Split(',');
+           string finalSentence = String.Join(" ",sentence);
+           Console.WriteLine(finalSentence);
            
 
 
