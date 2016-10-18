@@ -115,24 +115,25 @@ namespace ConsoleApplication
                  Console.WriteLine("Good Bye!");
              }*/
 
-            Console.WriteLine("Enter a number:");
+         /*   Console.WriteLine("Enter a number:");
             int number = int.Parse(Console.ReadLine());
             Console.Write("Factors: ");
             while (number > 1)
             {
-                 int candidateFactor = 2 ;                 
-                 
-                 while (candidateFactor <= number) // convert this to while
+                int candidateFactor = 2;
+
+                while (candidateFactor <= number) // convert this to while
                 {
                     if (number % candidateFactor == 0) // found a factor
                     {
-                        number = candidateFactor;                        
+                        number = candidateFactor;
 
                         Console.Write(number);
                         // divide number by the factor you found and assign this back to number
                         // print a comma if number is still greater than 1
                     }
-                    else if (number % candidateFactor > 0){
+                    else if (number % candidateFactor > 0)
+                    {
                         candidateFactor += candidateFactor;
                         Console.WriteLine(candidateFactor);
 
@@ -140,14 +141,47 @@ namespace ConsoleApplication
                     // don't forget to increment factor!
                 }
                 break;
-                
+
             }
             while (number > 100) // convert this to while
             {
                 number += number;
-               
+
             }
-            Console.WriteLine();
+            Console.WriteLine();*/
+
+            //looping at an odd value
+            for (int i = 1; i < 50; i+=2)
+            {
+                Console.WriteLine(i);
+                 Console.WriteLine("\n\n");
+            }
+
+            for (int i = 51 - 1; i >= 0 ; i--)
+            {
+                Console.WriteLine(i);
+                Console.WriteLine("\n\n");
+            }
+              for (int i = 50 - 1; i >= 1 ; i-=2)
+            {
+                Console.WriteLine(i);
+                Console.WriteLine("\n\n");
+            }
+
+            var counting = 24;
+            var startcount = 0;
+            for (var i = startcount; i <= counting; i+=3)
+            {
+                Console.WriteLine(i);
+            }
+
+             for (var i = startcount; i <= counting; i+=4)
+            {
+                Console.WriteLine(i);
+            }
+
+
+
 
 
 
