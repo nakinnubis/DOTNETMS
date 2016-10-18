@@ -151,7 +151,7 @@ namespace ConsoleApplication
             Console.WriteLine();*/
 
             //looping at an odd value
-            for (int i = 1; i < 50; i+=2)
+           /* for (int i = 1; i < 50; i+=2)
             {
                 Console.WriteLine(i);
                  Console.WriteLine("\n\n");
@@ -178,7 +178,17 @@ namespace ConsoleApplication
              for (var i = startcount; i <= counting; i+=4)
             {
                 Console.WriteLine(i);
-            }
+            }*/
+
+            //playing with arrays in c#
+
+            int [] someArray = new [] {1,2,3}; // is valid way of declaring arrays
+            int [] anotherArray = new int [] {4,5,6}; // another valid way of declaring an arrays
+           for (int i = 0; i < someArray.Length; i++){
+               //Console.WriteLine(i);
+               Console.WriteLine(someArray[i]);
+           }
+           
 
 
 
